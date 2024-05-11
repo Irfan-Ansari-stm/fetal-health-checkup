@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Fetal Health Prediction</title>
+<style>
+        .footer {
+      background-color: #f8f9fa;
+      padding: 60px 0;
+      border-top: 1px solid #dee2e6;
+    }
+
+    /* Footer links style */
+    .footer-links {
+      margin-bottom: 40px;
+    }
+
+    .footer-links ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .footer-links ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    .footer-links ul li:last-child {
+      margin-right: 0;
+    }
+
+    .footer-links ul li a {
+      color: #6c757d;
+      text-decoration: none;
+    }
+
+    .footer-links ul li a:hover {
+      color: #343a40;
+    }
+
+    /* Footer text style */
+    .footer-text {
+      color: #6c757d;
+    }
+</style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img src="../static/logo.png" alt="AlFetalAi" height="40">
+          </a>
+      
+          <!-- Centered menu -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <center>
+
+
+    <h2 id="check">Fetal Health Prediction</h2>
+    <form action="/home" method="post">
+        <label for="prolongued_decelerations">Prolongued Decelerations:</label><br>
+        <input type="text" id="prolongued_decelerations" name="prolongued_decelerations"><br>
+        <label for="abnormal_short_term_variability">Abnormal Short Term Variability:</label><br>
+        <input type="text" id="abnormal_short_term_variability" name="abnormal_short_term_variability"><br>
+        <label for="percentage_of_time_with_abnormal_long_term_variability">Percentage of Time with Abnormal Long Term Variability:</label><br>
+        <input type="text" id="percentage_of_time_with_abnormal_long_term_variability" name="percentage_of_time_with_abnormal_long_term_variability"><br>
+        <label for="histogram_variance">Histogram Variance:</label><br>
+        <input type="text" id="histogram_variance" name="histogram_variance"><br>
+        <label for="histogram_median">Histogram Median:</label><br>
+        <input type="text" id="histogram_median" name="histogram_median"><br>
+        <label for="mean_value_of_long_term_variability">Mean Value of Long Term Variability:</label><br>
+        <input type="text" id="mean_value_of_long_term_variability" name="mean_value_of_long_term_variability"><br>
+        <label for="histogram_mode">Histogram Mode:</label><br>
+        <input type="text" id="histogram_mode" name="histogram_mode"><br>
+        <label for="accelerations">Accelerations:</label><br>
+        <input type="text" id="accelerations" name="accelerations"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</center>
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h4>About Us</h4>
+              <p class="footer-text">
+                We specialize in fetal health check-ups, offering comprehensive prenatal care services. With advanced technology and expert medical guidance, we provide accurate evaluations to ensure the well-being of both mother and child throughout pregnancy. Our dedicated team is committed to promoting a safe and healthy journey to parenthood.
+            </p>
+            </div>
+            <div class="col-md-4">
+              <h4>Quick Links</h4>
+              <div class="footer-links">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Contact us</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h4>Contact Us</h4>
+              <p class="footer-text">420 Chittoor road, Chittoor, India</p>
+              <p class="footer-text">irfanansaristm2000@gmail.com</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p class="footer-text">© 2024 AlFetalAi. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
